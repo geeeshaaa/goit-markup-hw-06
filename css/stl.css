@@ -343,7 +343,7 @@ a:focus {
 .portfolio-item:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  /* background: var(--white); */
+  
 }
 .portfolio-item:hover .portfolio-item-text {
   transform: translateY(0);
@@ -499,12 +499,9 @@ a:focus {
 .footer-subscribe-input:focus {
   border-color: var(--iris);
 }
-/* .footer-subscribe-input::placeholder {
-  color: var(--white);
-} */
+
 
 .footer-subscribe-btn {
-  /* font-family: "Roboto", sans-serif; */
   min-width: 165px;
   height: 40px;
   border-radius: 4px;
@@ -733,6 +730,7 @@ a:focus {
 }
 .modal-btn {
 }
+*/
 /* ------------------ Modal 2 -------------------- */
 
 .modal-box {
