@@ -65,7 +65,11 @@ img {
   height: auto;
 }
 /*  ------------------- common -------------------- */
-
+body{
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+}
 .container {
   max-width: 320px;
   padding-left: 16px;
@@ -105,7 +109,7 @@ img {
 
 .header .container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
 }
 
@@ -142,6 +146,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .header .container {
+  align-items: center;
+  }
   .burger-btn {
     display: none;
   }
@@ -267,7 +274,8 @@ img {
   padding-top: 72px;
   padding-bottom: 40px;
 
-  display: flex;
+  /* display: flex; */
+  align-items: flex-start;
   flex-direction: column;
   height: 100%;
 }
@@ -369,13 +377,13 @@ img {
 /* ---------------- solution ---------------- */
 
 .solutions {
-  padding: 72px 0;
-  margin: 0 auto;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
     ),
     url("..//images/solution-bg-mob.jpg");
+    padding: 72px 0;
+    margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -414,12 +422,12 @@ img {
 
 @media screen and (min-width: 768px) {
   .solutions {
-    padding: 112px 0;
     background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
       ),
-      url("..//images/hero image-tablet.jpg");
+      url("..//images/hero-image-tablet.jpg");
+      padding: 112px 0;
   }
   .main-title {
     font-size: 56px;
@@ -441,7 +449,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("..//images/people-office.jpg");
+     url("..//images/hero-main.jpg");
 
     /* padding: 188px 472px; */
     margin: 0 auto;
@@ -466,7 +474,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg-2x.jpg);
+      url(/images/hero-bg-2x.jpg);
   }
 }
 
@@ -767,7 +775,7 @@ img {
   padding: 96px 0;
 }
 .footer-info {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
