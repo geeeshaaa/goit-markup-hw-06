@@ -381,7 +381,7 @@ body{
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
     ),
-    url("..//images/solution-bg-mob.jpg");
+    url("../images/solution-bg-mob.jpg");
     padding: 72px 0;
     margin: 0 auto;
   background-repeat: no-repeat;
@@ -426,7 +426,7 @@ body{
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
       ),
-      url("..//images/hero-image-tablet.jpg");
+      url("../images/hero-image-tablet.jpg");
       padding: 112px 0;
   }
   .main-title {
@@ -449,7 +449,7 @@ body{
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-     url("..//images/hero-main.jpg");
+     url("../images/hero-main.jpg");
 
     /* padding: 188px 472px; */
     margin: 0 auto;
@@ -474,7 +474,7 @@ body{
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(..//images/hero-bg-2x.jpg);
+      url(../images/hero-bg-2x.jpg);
   }
 }
 
